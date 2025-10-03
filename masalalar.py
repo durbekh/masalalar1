@@ -5,6 +5,7 @@
 # ism = input("Ismingizni kiriting: ").capitalize()
 # familya = input("Familya kiriting: ").capitalize()
 # otasining_i = input("Otangizning ismini kiriting: ").capitalize()
-# print(f"{ism} \n {familya} \n {otasining_i}")
+# print(f"{ism} {familya} {otasining_i}")
+
 
 
