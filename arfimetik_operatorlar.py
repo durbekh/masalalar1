@@ -26,7 +26,7 @@
 # # 6
 # d = int(input("Qancha dolloringiz borligini kiriting: "))
 # som = d * 12000
-# print(f"{som} so'mi")
+# print(f"{d}- usd {som} so'm")
 # # 7
 # xy = int(input("Birinchi sonni kiriting:"))
 # yx= int(input("Ikkinchi sonni kiriting:"))
@@ -47,3 +47,4 @@
 # abc = int(input("Almashtirilishi kerak bo'lgan sonni kitriting  :"))
 # abd, abc = abc, abd
 # print(f"Natija : {abd , abc}")
+
