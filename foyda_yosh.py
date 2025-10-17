@@ -11,7 +11,7 @@ if 0 <= y <= 120 :
         n_ye = 60 - y
         print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga chiqishingizga {n_ye} yil bor .")
     elif j == "ayol" and y < 55 :
-        n_yea = y - 55
+        n_yea = 55 - y
         print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga chiqishingizga {n_yea} yil bor .")
     elif j == "ayol" and y >= 55 :
         n_yy = y - 55
@@ -23,6 +23,7 @@ if 0 <= y <= 120 :
         print("Hurmatli foydalanuvchi siz jinsingizni to'g'ri kiritishingiz kerak")
 else:
     print("Yoshingizni to'g'ri kiriting ! ")
+
 
 
 
