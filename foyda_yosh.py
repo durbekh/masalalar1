@@ -1,4 +1,3 @@
-
 j = input("Jinsingizni kiriting (erkak yoki ayol): ").lower()
 y = int(input("yoshingizni kiriting : "))
 if 0 <= y <= 120 :
@@ -10,16 +9,10 @@ if 0 <= y <= 120 :
             print(f"Bobo siz nafaqa yoshidasiz . \nNafaqaga cgiqganingizga {n_y} yil bo'ldi")
     elif j == "erkak" and y < 60 :
         n_ye = 60 - y
-        if n_ye == 0 :
-            print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga yaqinda chiqdingiz . ")
-        else:
-            print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga chiqishingizga {n_ye} yil bor .")
+        print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga chiqishingizga {n_ye} yil bor .")
     elif j == "ayol" and y < 60 :
         n_yea = y - 60
-        if n_yea == 0 :
-            print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz .\nNafaqaga yaqinda chiqdingiz . ")
-        else:
-            print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga chiqishingizga {n_yea} yil bor .")
+        print(f"Hurmatli foydalanuvchi siz hali nafaqaga chiqmagansiz . \nNafaqaga chiqishingizga {n_yea} yil bor .")
     elif j == "ayol" and y >= 60 :
         n_yy = y - 60
         if n_yy == 0 :
